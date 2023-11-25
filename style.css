@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.6rem;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  color: #c4c4cc;
+  text-decoration: none;
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+a.select,
+a:hover {
+  color: #fff;
+  font-size: 2.4rem;
+  font-weight: 700;
+}
+
+.bg-home {
+  background: url("./assets/bg-home.png") no-repeat;
+  background-size: cover;
+}
+
+.bg-universe {
+  background: url("./assets/bg-universe.png") no-repeat;
+  background-size: cover;
+}
+
+.bg-explore {
+  background: url("./assets/bg-explore.png") no-repeat;
+  background-size: cover;
+}
+
+nav {
+  padding: 4rem 7.2rem 0;
+  display: flex;
+  gap: 3.2rem;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  gap: 3.2rem;
+}
+
+#home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 65vh;
+}
+
+#home h1 {
+  font-size: 4.8rem;
+  color: #e1e1e6;
+  font-weight: 700;
+  line-height: 6rem;
+  margin-bottom: 2.4rem;
+}
+
+#home button {
+  background: 0;
+  padding: 1.2rem 3.2rem;
+  border: 2px solid #fff;
+  border-radius: 5px;
+
+  font-size: 1.4rem;
+  line-height: 2.4rem;
+  font-weight: 700;
+  color: #fff;
+  transition: filter 300ms;
+}
+
+#home button:hover {
+  cursor: pointer;
+  filter: brightness(0.7);
+}
+
+#universe,
+#explore {
+  color: #e1e1e6;
+  padding: 18.5rem 10.2rem;
+}
+
+#universe h2,
+#explore h2 {
+  font-size: 4.8rem;
+  font-weight: 700;
+  line-height: 6rem;
+  margin-bottom: 1.6rem;
+}
+
+#universe p,
+#explore p {
+  width: 64.8rem;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 3rem;
+}

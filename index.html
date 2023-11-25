@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Universe</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="">
+    <nav>
+      <img src="./assets/Vector.png" alt="miniatura de uma galaxia" />
+      <ul>
+        <li><a href="/" class="select home" onclick="route()">Home</a></li>
+        <li>
+          <a href="/universe" class="universe" onclick="route()">O Universo</a>
+        </li>
+        <li>
+          <a href="/explore" class="explore" onclick="route()">Exploração</a>
+        </li>
+      </ul>
+    </nav>
+    <div id="app"></div>
+    <script type="module" src="./src/index.js"></script>
+  </body>
+</html>
